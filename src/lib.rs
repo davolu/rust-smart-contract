@@ -5,7 +5,6 @@ use near_sdk::collections::{UnorderedMap};
 mod payment;
 mod events;
 
-use events::*;
 
 #[near_bindgen]
 #[derive(BorshDeserialize, BorshSerialize)]
